@@ -5,7 +5,7 @@ const userController = require('../controllers/userController');
 const { login, register } = require('../controllers/authController');
 
 // Add New User
-router.post('/register', register);
+router.post('/addUser', register);
 
 // Login as a User
 router.post('/login', login);
